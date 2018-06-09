@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FirabaseDatabase" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Message" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NvL-5P-oeT">
+                                <rect key="frame" x="16" y="64" width="343" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="vZn-SN-jia"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QZg-0q-QXv">
+                                <rect key="frame" x="15" y="122" width="341" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="8OG-pN-vWz"/>
+                                </constraints>
+                                <state key="normal" title="Save">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnSavePress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OaE-il-L64"/>
+                                </connections>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="64" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="0Sa-8f-vHh">
+                                <rect key="frame" x="-1" y="166" width="377" height="499"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="64" id="5mc-KE-whK" customClass="Cell" customModule="FirabaseDatabase" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="377" height="64"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="5mc-KE-whK" id="pLV-2l-AZk">
+                                            <rect key="frame" x="0.0" y="0.0" width="377" height="64"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4UG-c5-sGU">
+                                                    <rect key="frame" x="22" y="22" width="335" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="lblTitle" destination="4UG-c5-sGU" id="3XF-wu-vo2"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="UOl-hu-lrg"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="M6n-KP-7LZ"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="QZg-0q-QXv" firstAttribute="top" secondItem="NvL-5P-oeT" secondAttribute="bottom" constant="28" id="5MS-bc-b6M"/>
+                            <constraint firstAttribute="trailing" secondItem="NvL-5P-oeT" secondAttribute="trailing" constant="16" id="952-Th-Nvr"/>
+                            <constraint firstAttribute="trailing" secondItem="QZg-0q-QXv" secondAttribute="trailing" constant="19" id="Ndi-IL-o8l"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="0Sa-8f-vHh" secondAttribute="bottom" constant="2" id="Q6Q-77-J8G"/>
+                            <constraint firstItem="0Sa-8f-vHh" firstAttribute="top" secondItem="QZg-0q-QXv" secondAttribute="bottom" constant="14" id="Qyf-kD-rHw"/>
+                            <constraint firstItem="QZg-0q-QXv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="15" id="REd-R8-NLS"/>
+                            <constraint firstAttribute="trailing" secondItem="0Sa-8f-vHh" secondAttribute="trailing" constant="-1" id="Sm2-Eg-2fk"/>
+                            <constraint firstItem="NvL-5P-oeT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="grs-SL-zli"/>
+                            <constraint firstItem="NvL-5P-oeT" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="44" id="orD-YT-W1F"/>
+                            <constraint firstItem="0Sa-8f-vHh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="-1" id="slL-qr-nTW"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tblMainVC" destination="0Sa-8f-vHh" id="wwv-On-OXo"/>
+                        <outlet property="txtName" destination="NvL-5P-oeT" id="2Oa-aH-wm4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="99.400299850074973"/>
+        </scene>
+    </scenes>
+</document>

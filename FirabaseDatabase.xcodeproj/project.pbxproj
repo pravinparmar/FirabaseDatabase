@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08A3B8BF36A83C1DBC2E825B /* Pods_FirabaseDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA1A6764C2AF4F9079B696E /* Pods_FirabaseDatabase.framework */; };
+		1710AA842095AA9A0013EC20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1710AA832095AA9A0013EC20 /* AppDelegate.swift */; };
+		1710AA862095AA9A0013EC20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1710AA852095AA9A0013EC20 /* ViewController.swift */; };
+		1710AA892095AA9A0013EC20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1710AA872095AA9A0013EC20 /* Main.storyboard */; };
+		1710AA8C2095AA9A0013EC20 /* FirabaseDatabase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1710AA8A2095AA9A0013EC20 /* FirabaseDatabase.xcdatamodeld */; };
+		1710AA8E2095AA9A0013EC20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1710AA8D2095AA9A0013EC20 /* Assets.xcassets */; };
+		1710AA912095AA9A0013EC20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1710AA8F2095AA9A0013EC20 /* LaunchScreen.storyboard */; };
+		1710AA992095AC270013EC20 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1710AA982095AC270013EC20 /* GoogleService-Info.plist */; };
+		17D2C77C2095EC7100D72414 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D2C77B2095EC7100D72414 /* Cell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1710AA802095AA9A0013EC20 /* FirabaseDatabase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirabaseDatabase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1710AA832095AA9A0013EC20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1710AA852095AA9A0013EC20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1710AA882095AA9A0013EC20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1710AA8B2095AA9A0013EC20 /* FirabaseDatabase.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FirabaseDatabase.xcdatamodel; sourceTree = "<group>"; };
+		1710AA8D2095AA9A0013EC20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1710AA902095AA9A0013EC20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1710AA922095AA9A0013EC20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1710AA982095AC270013EC20 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		17D2C77B2095EC7100D72414 /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		9DA1A6764C2AF4F9079B696E /* Pods_FirabaseDatabase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirabaseDatabase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA8EBB82AE765F97A6CEEF8E /* Pods-FirabaseDatabase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirabaseDatabase.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirabaseDatabase/Pods-FirabaseDatabase.release.xcconfig"; sourceTree = "<group>"; };
+		FE154F985AC19D7FA4154144 /* Pods-FirabaseDatabase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirabaseDatabase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirabaseDatabase/Pods-FirabaseDatabase.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1710AA7D2095AA9A0013EC20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08A3B8BF36A83C1DBC2E825B /* Pods_FirabaseDatabase.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1710AA772095AA9A0013EC20 = {
+			isa = PBXGroup;
+			children = (
+				1710AA822095AA9A0013EC20 /* FirabaseDatabase */,
+				1710AA812095AA9A0013EC20 /* Products */,
+				C88F261E372E87F883256540 /* Pods */,
+				DAFCE254773D94D1E6862D42 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1710AA812095AA9A0013EC20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1710AA802095AA9A0013EC20 /* FirabaseDatabase.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1710AA822095AA9A0013EC20 /* FirabaseDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				1710AA832095AA9A0013EC20 /* AppDelegate.swift */,
+				1710AA852095AA9A0013EC20 /* ViewController.swift */,
+				17D2C77B2095EC7100D72414 /* Cell.swift */,
+				1710AA872095AA9A0013EC20 /* Main.storyboard */,
+				1710AA8D2095AA9A0013EC20 /* Assets.xcassets */,
+				1710AA8F2095AA9A0013EC20 /* LaunchScreen.storyboard */,
+				1710AA922095AA9A0013EC20 /* Info.plist */,
+				1710AA982095AC270013EC20 /* GoogleService-Info.plist */,
+				1710AA8A2095AA9A0013EC20 /* FirabaseDatabase.xcdatamodeld */,
+			);
+			path = FirabaseDatabase;
+			sourceTree = "<group>";
+		};
+		C88F261E372E87F883256540 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE154F985AC19D7FA4154144 /* Pods-FirabaseDatabase.debug.xcconfig */,
+				CA8EBB82AE765F97A6CEEF8E /* Pods-FirabaseDatabase.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DAFCE254773D94D1E6862D42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DA1A6764C2AF4F9079B696E /* Pods_FirabaseDatabase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1710AA7F2095AA9A0013EC20 /* FirabaseDatabase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1710AA952095AA9A0013EC20 /* Build configuration list for PBXNativeTarget "FirabaseDatabase" */;
+			buildPhases = (
+				39C79538BC9DD25FE0A70A17 /* [CP] Check Pods Manifest.lock */,
+				1710AA7C2095AA9A0013EC20 /* Sources */,
+				1710AA7D2095AA9A0013EC20 /* Frameworks */,
+				1710AA7E2095AA9A0013EC20 /* Resources */,
+				D3936C4B353521C14DA81C8B /* [CP] Embed Pods Frameworks */,
+				17D1D262C445E6873A18999C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FirabaseDatabase;
+			productName = FirabaseDatabase;
+			productReference = 1710AA802095AA9A0013EC20 /* FirabaseDatabase.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1710AA782095AA9A0013EC20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = com.parmar;
+				TargetAttributes = {
+					1710AA7F2095AA9A0013EC20 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1710AA7B2095AA9A0013EC20 /* Build configuration list for PBXProject "FirabaseDatabase" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1710AA772095AA9A0013EC20;
+			productRefGroup = 1710AA812095AA9A0013EC20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1710AA7F2095AA9A0013EC20 /* FirabaseDatabase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1710AA7E2095AA9A0013EC20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1710AA912095AA9A0013EC20 /* LaunchScreen.storyboard in Resources */,
+				1710AA992095AC270013EC20 /* GoogleService-Info.plist in Resources */,
+				1710AA8E2095AA9A0013EC20 /* Assets.xcassets in Resources */,
+				1710AA892095AA9A0013EC20 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17D1D262C445E6873A18999C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirabaseDatabase/Pods-FirabaseDatabase-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39C79538BC9DD25FE0A70A17 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FirabaseDatabase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3936C4B353521C14DA81C8B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FirabaseDatabase/Pods-FirabaseDatabase-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirabaseDatabase/Pods-FirabaseDatabase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1710AA7C2095AA9A0013EC20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1710AA862095AA9A0013EC20 /* ViewController.swift in Sources */,
+				17D2C77C2095EC7100D72414 /* Cell.swift in Sources */,
+				1710AA8C2095AA9A0013EC20 /* FirabaseDatabase.xcdatamodeld in Sources */,
+				1710AA842095AA9A0013EC20 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1710AA872095AA9A0013EC20 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1710AA882095AA9A0013EC20 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1710AA8F2095AA9A0013EC20 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1710AA902095AA9A0013EC20 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1710AA932095AA9A0013EC20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1710AA942095AA9A0013EC20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1710AA962095AA9A0013EC20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE154F985AC19D7FA4154144 /* Pods-FirabaseDatabase.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FirabaseDatabase/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.parmar.FirabaseDatabase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1710AA972095AA9A0013EC20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA8EBB82AE765F97A6CEEF8E /* Pods-FirabaseDatabase.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FirabaseDatabase/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.parmar.FirabaseDatabase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1710AA7B2095AA9A0013EC20 /* Build configuration list for PBXProject "FirabaseDatabase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1710AA932095AA9A0013EC20 /* Debug */,
+				1710AA942095AA9A0013EC20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1710AA952095AA9A0013EC20 /* Build configuration list for PBXNativeTarget "FirabaseDatabase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1710AA962095AA9A0013EC20 /* Debug */,
+				1710AA972095AA9A0013EC20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1710AA8A2095AA9A0013EC20 /* FirabaseDatabase.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1710AA8B2095AA9A0013EC20 /* FirabaseDatabase.xcdatamodel */,
+			);
+			currentVersion = 1710AA8B2095AA9A0013EC20 /* FirabaseDatabase.xcdatamodel */;
+			path = FirabaseDatabase.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1710AA782095AA9A0013EC20 /* Project object */;
+}
